@@ -8,6 +8,8 @@ module.exports = {
       twitter: `kylemathews`,
     },
   },
+    pathPrefix: "/drdpedroso.github.io",
+
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
