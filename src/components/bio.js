@@ -38,11 +38,12 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Hey, I'm <strong>{author}</strong>. A Software Engineer born and raised in the country side of Brazil.
+               I've worked from small startup in Brazil and in the USA to huge Fortune 500 companies. I'm currently building products of my own, know more about me at this blog :)
               {` `}
+              <br/>
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Give me a follow!
               </a>
             </p>
           </div>
