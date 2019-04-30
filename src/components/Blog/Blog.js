@@ -17,6 +17,7 @@ const Blog = props => {
                 fields: { slug }
               }
             } = post;
+            console.log(1,post)
             return <Item key={slug} post={node} theme={theme} />;
           })}
         </ul>

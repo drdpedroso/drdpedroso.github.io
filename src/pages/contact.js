@@ -24,7 +24,10 @@ const ContactPage = props => {
             <header>
               <Headline title="Contact" theme={theme} />
             </header>
-            <Contact theme={theme} />
+            {/*<Contact theme={theme} />*/}
+            <div>
+              <h3>Email: drdpedroso@gmail.com</h3>
+            </div>
           </Article>
         )}
       </ThemeContext.Consumer>
