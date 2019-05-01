@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { FaArrowDown } from "react-icons/fa/";
 
 const Hero = props => {
-  const { scrollToContent, backgrounds, theme } = props;
+  const { scrollToContent, theme } = props;
 
   return (
     <React.Fragment>
@@ -68,7 +68,6 @@ const Hero = props => {
           line-height: ${theme.hero.h1.lineHeight};
           font-size: 20px;
           margin-bottom: 25px;
-          border: 1px solid black;
           text-remove-gap: both 0 "Open Sans";
         }
 
@@ -92,9 +91,6 @@ const Hero = props => {
             fill: ${theme.color.neutral.white};
             stroke-width: 40;
             stroke: ${theme.color.neutral.white};
-            animation-duration: ${theme.time.duration.long};
-            animation-name: buttonIconMove;
-            animation-iteration-count: infinite;
           }
         }
 

@@ -6,7 +6,22 @@ import Blog from "../components/Blog";
 import Hero from "../components/Hero";
 import Seo from "../components/Seo";
 
+function getPostLocale(name = '') {
+  const splitedName = name.split('-')
+  return splitedName[splitedName.length - 1].replace('/', '')
+}
+
+const getPostsbyLocale = (posts, locale) => posts.filter(post => getPostLocale(post.node.fields.slug) === locale)
+
+
 class IndexPage extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      locale: 'pt'
+    }
+
+  }
   separator = React.createRef();
 
   scrollToContent = e => {
@@ -38,6 +53,8 @@ class IndexPage extends React.Component {
       mobile
     };
 
+    const postsLocale = getPostsbyLocale(posts, this.state.locale)
+
     return (
       <React.Fragment>
         <ThemeContext.Consumer>
@@ -49,7 +66,13 @@ class IndexPage extends React.Component {
         <hr ref={this.separator} />
 
         <ThemeContext.Consumer>
-          {theme => <Blog posts={posts} theme={theme} />}
+          {theme =>
+            <React.Fragment>
+              <Blog posts={postsLocale} onChangeLocale={(locale) => {
+                this.setState({ locale })
+              }} theme={theme} />
+            </React.Fragment>
+          }
         </ThemeContext.Consumer>
 
         <Seo facebook={facebook} />

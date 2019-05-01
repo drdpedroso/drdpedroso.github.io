@@ -4,12 +4,17 @@ import React from "react";
 import Item from "./Item";
 
 const Blog = props => {
-  const { posts, theme } = props;
+  const { posts, theme, onChangeLocale = () => {} } = props;
 
   return (
     <React.Fragment>
       <main className="main">
+
         <ul>
+          <div className="flags-containers">
+              <button onClick={() => onChangeLocale('pt')}>PT</button>
+              <button onClick={() => onChangeLocale('en')}>EN</button>
+          </div>
           {posts.map(post => {
             const {
               node,
@@ -17,18 +22,25 @@ const Blog = props => {
                 fields: { slug }
               }
             } = post;
-            console.log(1,post)
             return <Item key={slug} post={node} theme={theme} />;
           })}
         </ul>
       </main>
 
-      {/* --- STYLES --- */}
       <style jsx>{`
         .main {
           padding: 0 ${theme.space.inset.default};
         }
-
+        
+        .flags-containers {
+          display: flex;
+          flex-direction: row;
+          button {
+            padding: 10px;
+            margin-right: 10px;
+          }
+        }
+        
         ul {
           list-style: none;
           margin: 0 auto;
