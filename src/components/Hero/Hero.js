@@ -25,7 +25,7 @@ const Hero = props => {
         .hero {
           align-items: center;
           background: ${theme.hero.background};
-          background-image: url(https://images.unsplash.com/photo-1536880756060-98a6a140f0a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80);
+          background-image: url(https://images.unsplash.com/photo-1485722841820-473e4b6c3bde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3289&q=80);
           background-size: cover;
           color: ${theme.text.color.primary.inverse};
           display: flex;
@@ -108,7 +108,7 @@ const Hero = props => {
 
         @from-width tablet {
           .hero {
-            background-image: url(https://images.unsplash.com/photo-1536880756060-98a6a140f0a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80);
+            background-image: url(https://images.unsplash.com/photo-1485722841820-473e4b6c3bde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3289&q=80);
           }
 
           h1 {
@@ -123,7 +123,7 @@ const Hero = props => {
 
         @from-width desktop {
           .hero {
-            background-image: url(https://images.unsplash.com/photo-1536880756060-98a6a140f0a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80);
+            background-image: url(https://images.unsplash.com/photo-1485722841820-473e4b6c3bde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3289&q=80);
           }
 
           h1 {

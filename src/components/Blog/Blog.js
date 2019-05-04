@@ -12,8 +12,8 @@ const Blog = props => {
 
         <ul>
           <div className="flags-containers">
-              <button onClick={() => onChangeLocale('pt')}>PT</button>
-              <button onClick={() => onChangeLocale('en')}>EN</button>
+              <button onClick={() => onChangeLocale('pt')}>🇧🇷</button>
+              <button onClick={() => onChangeLocale('en')}>🇬🇧</button>
           </div>
           {posts.map(post => {
             const {
@@ -35,9 +35,14 @@ const Blog = props => {
         .flags-containers {
           display: flex;
           flex-direction: row;
+          margin-top: -11px;
+          margin-bottom: -43px;
           button {
-            padding: 10px;
+            padding: 8px;
+            background: transparent;
             margin-right: 10px;
+            border: none;
+            font-size: 31px;
           }
         }
         

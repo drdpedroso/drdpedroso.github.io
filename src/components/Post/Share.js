@@ -26,11 +26,10 @@ const PostShare = props => {
     theme
   } = props;
 
-  const url = config.siteUrl + config.pathPrefix + slug;
-
+  const url = config.siteUrl + slug;
   const iconSize = 36;
   const filter = count => (count > 0 ? count : "");
-
+  
   return (
     <React.Fragment>
       <div className="share">

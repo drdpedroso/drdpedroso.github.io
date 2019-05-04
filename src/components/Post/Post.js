@@ -33,6 +33,8 @@ const Post = props => {
     theme
   } = props;
 
+  console.log({post})
+
   return (
     <React.Fragment>
       <header>
