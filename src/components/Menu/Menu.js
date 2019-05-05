@@ -141,6 +141,7 @@ class Menu extends React.Component {
   render() {
     const { screenWidth, theme } = this.props;
     const { open } = this.state;
+    console.log(screenWidth < 1000 && open)
 
     return (
       <React.Fragment>
@@ -170,7 +171,7 @@ class Menu extends React.Component {
             display: flex;
             flex-grow: 1;
             left: 0;
-            max-height: ${open ? "1000px" : "50px"};
+            max-height: ${open ? "1000px" : "0px"};
             padding: 0 ${theme.space.inset.s};
             position: fixed;
             width: 100%;
@@ -187,6 +188,7 @@ class Menu extends React.Component {
             padding: 0; /* 0 ${theme.space.s}; */
             position: relative;
             width: 100%;
+            visibility: ${(screenWidth > 1000 || open) ? '' : 'hidden'};
           }
 
           @below desktop {

@@ -3,17 +3,16 @@ title: Projetos
 menuTitle: Projetos
 ---
 
-**HeroBlog** is not my first [GatsbyJS](https://www.gatsbyjs.org/) starter.
+[**Be Grateful**](https://www.begrateful.me/) 
 
-### PersonalBlog
+A diary for you to write down what your grateful this day :) 
 
-![PersonalBlog](./gatsby-starter-personal-blog.png)
+![BeGrateful](./begrateful.png)
 
-A ready to use, easy to customize Gatsby starter with 'like app' layout transitions. [Demo](https://gatsby-starter-personal-blog.greglobinski.com/) | [Github repo](https://github.com/greglobinski/gatsby-starter-personal-blog)
+[**Stack App**](https://getstack.app/)
 
-### SimpleLanding
+Stack is an internet launchpad for all of your web applications. 
+Work in multiple web-apps simultaneously, within a well-organized environment.
 
-![SimpleLanding](./gatsby-starter-simple-landing.png)
+![SimpleLanding](./stack.png)
 
-As the name says, it is a simple landing page starter.
-[Demo](https://gatsby-starter-simple-landing.greglobinski.com/) | [Github repo](https://github.com/greglobinski/gatsby-starter-simple-landing)
