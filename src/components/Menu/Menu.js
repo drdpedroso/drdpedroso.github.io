@@ -141,8 +141,6 @@ class Menu extends React.Component {
   render() {
     const { screenWidth, theme } = this.props;
     const { open } = this.state;
-    console.log(screenWidth < 1000 && open)
-
     return (
       <React.Fragment>
         <nav className={`menu ${open ? "open" : ""}`} rel="js-menu">
