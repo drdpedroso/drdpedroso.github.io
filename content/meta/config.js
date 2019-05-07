@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "<pedroso.rocks />", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
+  shortSiteTitle: "Pedroso.Rocks", // <title> ending for posts and pages
+  siteDescription: "A new view on Engineering culture and stuff",
   siteUrl: "https://pedroso.rocks",
   // pathPrefix: "",
   siteImage: "preview.jpg",
