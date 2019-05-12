@@ -1,13 +1,15 @@
 ---
-title: 8 princípios para abordar programadores no LinkedIn de forma eficaz
-category: "recrutamento"
+title: 8 principles to approach developers on LinkedIn
+category: "recruiting"
 cover: headway-537308-unsplash.jpg
 author: eduardo pedroso
 ---
 
-![unsplash.com](../2019-05-07--8-principles-to-approach-developers-linkedin/headway-537308-unsplash.jpg)
+![unsplash.com](./headway-537308-unsplash.jpg)
 
 <sup>Photo by Headway on Unsplash</sup>
+
+## This post is coming soon in English! Stay tunned :)
 
 Atualmente o mercado de tecnologia está extremamente aquecido. Até o final de 2018, existiam mais de 460 mil vagas abertas na área! E, adivinha só, não temos profissionais qualificados o suficiente para preencher essas vagas. Isso significa que o trabalho de recrutamento está cada vez mais importante. Além disso, recrutamento pode consumir muitos recursos ($$) da sua empresa (voce pode ver exatamente quanto usando a planilha do [Grupy]([Planilha Custo do Recrutamento e Seleção - Gupy](https://info.gupy.io/material-planilha-custo-do-recrutamento-e-selecao))) .
 
